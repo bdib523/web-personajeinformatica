@@ -149,67 +149,17 @@ th {
 }
 
 @media (max-width: 768px) {
-  .cabecera {
-    padding: 20px 10px;
-    text-align: center;
-  }
-
   .cabecera h1 {
     font-size: 34px;
-    line-height: 1.2;
   }
 
-  .principal {
-    padding: 10px;
-  }
-
-  .menu-lateral {
-    margin-bottom: 20px;
-  }
-
-  .tabla {
-    padding: 15px;
-  }
-
-  .tabla ul {
-    padding-left: 18px;
-  }
-
-  .contenido-principal {
-    padding: 10px 0;
+  .texto-cabecera {
+    padding: 14px 0 0 0;
   }
 
   .foto-principal {
-    display: block;
     max-width: 220px;
-    width: 100%;
-    margin: 0 auto 15px auto;
-  }
-
-  .textoprincipal {
-    text-align: left;
-    padding-top: 10px;
-  }
-
-  table {
-    width: 100%;
-    display: block;
-    overflow-x: auto;
-  }
-
-  .imagen1,
-  .imagenpequeña {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .imagen2 {
-    margin-bottom: 20px;
-  }
-
-  .pie {
-    text-align: center;
-    padding: 15px 10px;
+    margin-bottom: 12px;
   }
 }
 

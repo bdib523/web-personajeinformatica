@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página sobre Robert Tappan Morris y el proyecto Morris Worm.">
+  <title>Robert Tappan Morris</title>
+  <link rel="stylesheet" href="css/flexboxgrid.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="shortcut icon" href="imagenes/favicon.svg" type="image/x-icon">
+
+  <script type="text/javascript">
+    function muestra(capa) {
+      var capas = document.getElementsByClassName("articulo");
+
+      for (var i = 0; i < capas.length; i++) {
+        capas[i].className = "articulo oculto";
+      }
+
+      var elemento = document.getElementById(capa);
+      elemento.className = "articulo visible";
+    }
+  </script>
+
+</head>
+<body>
+  <header class="cabecera" id="inicio">
+    <div class="container">
+      <h1>Robert Tappan Morris</h1>
+    </div>
+  </header>
+
+  <main class="container principal">
+    <div class="row">
+      <aside class="col-xs-12 col-md-3 menu-lateral">
+        <div class="tabla">
+          <h2>MENÚ</h2>
+          <hr>
+          <ul>
+            <li><a href="#" onclick="muestra('datos')">Datos personales</a></li>
+            <li><a href="#" onclick="muestra('proyecto')">Proyecto</a></li>
+            <li><a href="#" onclick="muestra('tabla')">Tabla</a></li>
+            <li><a href="#" onclick="muestra('curiosidades')">Curiosidades</a></li>
+            <li><a href="#" onclick="muestra('imagenes')">Imágenes</a></li>
+            <li><a href="#" onclick="muestra('fuentes')">Fuentes</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <section class="col-xs-12 col-md-9 contenido-principal">
+        <div class="row datos middle-xs">
+          <div class="col-xs-12 col-md-4">
+            <img src="imagenes/robert-tappan-morris.jpg" alt="Fotografía de Robert Tappan Morris" class="foto-principal">
+          </div>
+          <div class="col-xs-12 col-md-8 textoprincipal">
+            <p><strong>Nombre completo:</strong> Robert Tappan Morris</p>
+            <p><strong>Fecha de nacimiento:</strong> 8 de noviembre de 1965</p>
+            <p><strong>Lugar de nacimiento:</strong> Estados Unidos</p>
+            <p><strong>Situación actual:</strong> Sigue vivo y trabaja como profesor en MIT</p>
+            <p><a href="https://www.eecs.mit.edu/people/robert-morris/" target="_blank" rel="noopener noreferrer">Web oficial</a></p>
+          </div>
+        </div>
+
+        <hr>
+
+        <section id="datos" class="articulo visible">
+          <h2>Datos personales</h2>
+          <p>Robert Tappan Morris es un informático, profesor y emprendedor. Es conocido sobre todo por haber creado el <strong>Morris Worm</strong>, uno de los primeros gusanos informáticos que tuvo un gran impacto en Internet.</p>
+          <p>Estudió en Harvard University y también pasó por Cornell University durante su formación. Más tarde desarrolló su carrera académica y profesional en el ámbito de los sistemas y las redes.</p>
+
+          <h3>Logros</h3>
+          <ul>
+            <li>Informático estadounidense.</li>
+            <li>Conocido por el Morris Worm.</li>
+            <li>Profesor en MIT.</li>
+            <li>Cofundador de Viaweb y Y Combinator.</li>
+          </ul>
+        </section>
+
+        <section id="proyecto" class="articulo oculto">
+          <h2>Proyecto: Morris Worm</h2>
+          <p>El proyecto más famoso relacionado con Robert Tappan Morris fue el <strong>Morris Worm</strong>. Se lanzó en 1988 y afectó a muchos ordenadores conectados a Internet.</p>
+          <p>El gusano aprovechaba fallos de seguridad y se copiaba demasiadas veces, lo que hacía que muchos equipos fueran más lentos o dejaran de funcionar correctamente.</p>
+
+          <h3>Descripción</h3>
+          <ol>
+            <li>Fue creado cuando Morris era estudiante.</li>
+            <li>Se difundió por sistemas Unix conectados a la red.</li>
+            <li>Demostró que Internet podía sufrir ataques a gran escala.</li>
+            <li>Ayudó a que la seguridad informática se tomara más en serio.</li>
+          </ol>
+
+          <p id="importante"><strong>Ya no es reconocido como una amenaza real</strong>, pero sigue siendo muy importante en la historia de la ciberseguridad.</p>
+        </section>
+
+        <section id="tabla" class="articulo oculto">
+          <h2>Tabla de información</h2>
+          <table>
+            <tr>
+              <th>Aspecto</th>
+              <th>Información</th>
+            </tr>
+            <tr>
+              <td>Nombre</td>
+              <td>Robert Tappan Morris</td>
+            </tr>
+            <tr>
+              <td>Nacimiento</td>
+              <td>8 de noviembre de 1965</td>
+            </tr>
+            <tr>
+              <td>Profesión</td>
+              <td>Profesor, informático y emprendedor</td>
+            </tr>
+            <tr>
+              <td>Proyecto destacado</td>
+              <td>Morris Worm</td>
+            </tr>
+            <tr>
+              <td>Imagen de Robert Tappan Morris</td>
+              <td><img src="imagenes/robert-tappan-morris.jpg" alt="pequeña imagen de Robert Tappan Morris" class="imagenpequeña"></td>
+            </tr>
+            <tr>
+              <td>Imagen del proyecto</td>
+              <td><img src="imagenes/morris-worm.jpg" alt="pequeña imagen del virus Morris Worm" class="imagenpequeña"></td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="curiosidades" class="articulo oculto">
+          <h2>Curiosidades</h2>
+          <p>Fue una de las primeras personas condenadas en Estados Unidos por un caso relacionado con la ley de fraude y abuso informático.</p>
+          <p>Después de ese episodio, siguió teniendo una carrera importante en el mundo de la informática y llegó a ser profesor del MIT.</p>
+        </section>
+
+        <section id="imagenes" class="articulo oculto">
+          <h2>Imágenes</h2>
+          <div class="row">
+            <div class="col-xs-12 col-md-6 imagen2">
+              <h3>Imagen de Robert Tappan Morris</h3>
+              <img src="imagenes/robert-tappan-morris.jpg" alt="Retrato de Robert Tappan Morris" class="imagen1">
+            </div>
+            <div class="col-xs-12 col-md-6 imagen2">
+              <h3>Disco infectado</h3>
+              <img src="imagenes/morris-worm.jpg" alt="Disco virus proyecto Morris Worm" class="imagen1">
+            </div>
+          </div>
+        </section>
+
+        <section id="fuentes" class="articulo oculto">
+          <h2>Fuentes</h2>
+          <p><a href="#" onclick="muestra('datos')">Volver al inicio del contenido</a></p>
+          <ul>
+            <li><a href="https://es.wikipedia.org/wiki/Robert_Tappan_Morris" target="_blank" rel="noopener noreferrer">Wikipedia sobre Robert Tappan Morris</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Morris_worm" target="_blank" rel="noopener noreferrer">Wikipedia sobre Morris Worm</a></li>
+            <li><a href="https://www.eecs.mit.edu/people/robert-morris/" target="_blank" rel="noopener noreferrer">Página oficial de MIT</a></li>
+            <li><a href="https://www.fbi.gov/history/famous-cases/morris-worm" target="_blank" rel="noopener noreferrer">Información del FBI</a></li>
+          </ul>
+        </section>
+      </section>
+    </div>
+  </main>
+
+  <footer class="pie">
+    <div class="container">
+      <p>Historia de Robert Tappan Morris por BADR DIBOUNE EL WASMI</p>
+    </div>
+  </footer>
+</body>
+</html>

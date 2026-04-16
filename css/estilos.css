@@ -149,17 +149,36 @@ th {
 }
 
 @media (max-width: 768px) {
-  .cabecera h1 {
-    font-size: 34px;
+  .menu-lateral {
+    margin-bottom: 0;
   }
 
-  .texto-cabecera {
-    padding: 14px 0 0 0;
+  .tabla {
+    padding: 10px;
   }
 
-  .foto-principal {
-    max-width: 220px;
-    margin-bottom: 12px;
+  .tabla h2 {
+    font-size: 18px;
+  }
+
+  .tabla ul {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .tabla ul li {
+    margin-bottom: 10px;
+  }
+
+  .tabla ul li a {
+    display: block;
+    font-size: 14px;
+    padding: 8px 4px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .contenido-principal {
+    padding-left: 10px;
   }
 }
 
